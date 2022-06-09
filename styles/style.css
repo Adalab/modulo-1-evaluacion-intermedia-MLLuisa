@@ -34,6 +34,7 @@ li {
 }
 
 .main {
+    width: 100vw;
     background-color: var(--background);
     display: flex;
     justify-content: center;
