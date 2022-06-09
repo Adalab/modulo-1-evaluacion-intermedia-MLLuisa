@@ -58,6 +58,7 @@ li {
     font-size: 30px;
     margin: 200px;
     text-align: center;
+    font-weight: 800;
 }
 
 @media all and (min-width: 780px) {
