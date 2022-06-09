@@ -24,7 +24,7 @@
 
 .menu  {
     display: flex;
-    justify-content: center;
+    align-items: center;
     justify-content: space-between;
     padding: 15px 180px;
     font-size: 16px;
@@ -36,6 +36,8 @@
     color: var(--text-menu);
     list-style: none;
     display: inline;
+    margin-right: 20px;
+    
     
 }
 
@@ -58,4 +60,24 @@
     font-size: 30px;
     margin: 200px;
     text-align: center;
+}
+
+@media all and (min-width: 780px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px;
+        box-sizing: border-box;
+    }
+
+    .descripcion {
+        font-size: 16px;
+    }
+
+    .titulo {
+        font-size: 40px;
+        padding: 100px;
+    }
+
 }
