@@ -36,6 +36,10 @@
     text-transform: uppercase;
 }
 
+.menu .list .title {
+    color: var(--text-black);
+}
+
 a {
     padding: 10px;
 }
