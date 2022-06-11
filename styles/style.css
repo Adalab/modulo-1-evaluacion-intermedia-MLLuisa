@@ -4,9 +4,9 @@
 
 :root {
     font-family: 'Rubik', sans-serif;
-    --text-menu:#4a4a4a;
+    --text-black:#4a4a4a;
     --background: #3CDBC0;
-    --texto-titulo: #FFFFFF;
+    --text-white: #FFFFFF;
 }
 
 .header {
@@ -17,7 +17,7 @@
     padding-bottom: 13px;
     position: fixed;
     width: 100vw;
-    background-color: var(--texto-titulo);
+    background-color: var(--text-white);
 }
 
 .menu  {
@@ -31,9 +31,13 @@
 }
 
 .list {
-    color: var(--text-menu);
+    color: var(--text-black);
     margin-right: 10px;
     text-transform: uppercase;
+}
+
+a {
+    padding: 10px;
 }
 
 .main {
@@ -60,7 +64,7 @@
 }
 
 .main-title {
-    color: var(--texto-titulo);
+    color: var(--text-white);
     font-size: 30px;
     margin: 200px;
     text-align: center;
