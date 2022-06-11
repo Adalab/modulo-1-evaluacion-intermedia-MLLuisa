@@ -56,9 +56,10 @@
     margin-bottom: 10px;
     padding: 10px;
     text-decoration: none;
+    text-align: center;
 }
 
-.titulo {
+.main-title {
     color: var(--texto-titulo);
     font-size: 30px;
     margin: 200px;
@@ -69,18 +70,15 @@
 
 @media all and (min-width: 780px) {
     .header {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 30px;
-        box-sizing: border-box;
     }
 
     .descripcion {
         font-size: 16px;
     }
 
-    .titulo {
+    .main-title{
         font-size: 40px;
         padding: 100px;
     }
